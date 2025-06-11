@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patthadon Racksawongsakul - Software Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: white;
+            font-size: 11px;
+        }
+        
+        .container {
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+            min-height: 297mm;
+            padding: 15mm;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        
+        .title {
+            font-size: 16px;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+        
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 10px;
+            color: #555;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .profile-text {
+            text-align: justify;
+            line-height: 1.5;
+            color: #444;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .experience-item, .education-item {
+            margin-bottom: 15px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 12px;
+            color: #2c3e50;
+        }
+        
+        .company {
+            font-weight: bold;
+            color: #34495e;
+            font-size: 11px;
+        }
+        
+        .date {
+            color: #7f8c8d;
+            font-size: 10px;
+            font-style: italic;
+        }
+        
+        .job-description {
+            margin-top: 5px;
+        }
+        
+        .job-description ul {
+            margin-left: 15px;
+            margin-top: 3px;
+        }
+        
+        .job-description li {
+            margin-bottom: 2px;
+            font-size: 10px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        
+        .skill-category {
+            margin-bottom: 10px;
+        }
+        
+        .skill-category h4 {
+            font-size: 11px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 3px;
+        }
+        
+        .skill-list {
+            font-size: 10px;
+            color: #555;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        
+        .project-item {
+            border-left: 3px solid #3498db;
+            padding-left: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .project-name {
+            font-weight: bold;
+            font-size: 11px;
+            color: #2c3e50;
+        }
+        
+        .project-duration {
+            font-size: 9px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .project-description {
+            font-size: 10px;
+            margin-top: 2px;
+            color: #555;
+        }
+        
+        .highlight {
+            background: #ecf0f1;
+            padding: 8px;
+            border-radius: 3px;
+            margin: 8px 0;
+        }
+        
+        .level-indicator {
+            background: #3498db;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 9px;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body { font-size: 10px; }
+            .container { padding: 10mm; }
+            .section { margin-bottom: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="name">PATTHADON RACKSAWONGSAKUL</div>
+            <div class="title">Software Engineering Student & Developer</div>
+            <div class="contact">
+                <div class="contact-item">📧 rpatdon@gmail.com</div>
+                <div class="contact-item">📱 064-172-4493</div>
+                <div class="contact-item">📍 Lat Krabang, Bangkok, Thailand</div>
+                <div class="contact-item">🎓 42 Bangkok Level 5.11</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Profile</div>
+            <div class="profile-text">
+                Dedicated software engineering student at 42 Bangkok with proven experience in C, Python, and web technologies. Currently at Level 5.11 in the prestigious 42 curriculum (57% Common Core completion), demonstrating strong problem-solving abilities and commitment to excellence. Experienced in tutoring programming concepts and developing practical applications including OCR systems and database management. Passionate about algorithm design, system programming, and creating efficient solutions to complex technical challenges.
+            </div>
+        </div>
+
+        <div class="two-column">
+            <div class="left-column">
+                <div class="section">
+                    <div class="section-title">Technical Skills</div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-list">C (Advanced), Python, C++, JavaScript, HTML/CSS, Lua Script, Scratch</div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Technologies & Tools</h4>
+                            <div class="skill-list">MongoDB, OCR, Git, Unix/Linux, TCP/UDP Sockets, Multithreading</div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Core Competencies</h4>
+                            <div class="skill-list">Algorithm Design, Data Structures, System Programming, Graphics Programming, Network Administration</div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-list">English (Proficient), Thai (Native)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Education</div>
+                    <div class="education-item">
+                        <div class="company">42 Bangkok - Programming School</div>
+                        <div class="date">August 2023 - Present</div>
+                        <div class="highlight">
+                            <span class="level-indicator">Level 5.11</span> Common Core Progress: 57% Complete
+                        </div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Intensive peer-to-peer learning program focusing on practical software engineering</li>
+                                <li>Completed 18+ major projects including advanced C/C++, graphics, and system programming</li>
+                                <li>Specialized in algorithms, concurrent programming, and network systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="company">Silpakorn University</div>
+                        <div class="job-title">Bachelor of Electrical Engineering & Computer Systems</div>
+                        <div class="date">2020 - 2023</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Strong foundation in engineering principles and mathematical problem-solving</li>
+                                <li>Computer systems architecture and analytical thinking development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="section">
+                    <div class="section-title">Professional Experience</div>
+                    <div class="experience-item">
+                        <div class="job-title">Programming Tutor</div>
+                        <div class="company">42 Bangkok</div>
+                        <div class="date">November 2023 - Present</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Guide students through C programming fundamentals and advanced concepts</li>
+                                <li>Deliver technical presentations on programming best practices</li>
+                                <li>Mentor international students in peer-to-peer learning environment</li>
+                                <li>Foster connections and facilitate educational institution management</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="job-title">Data Analyst & Programmer</div>
+                        <div class="company">Wetrust GPS Company</div>
+                        <div class="date">December 2022 - February 2023</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Developed OCR project utilizing Python and JavaScript for text extraction</li>
+                                <li>Implemented MongoDB database integration for efficient data storage</li>
+                                <li>Conducted comprehensive database administration and data analysis</li>
+                                <li>Provided technical consultation to company leadership</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="job-title">Discovery Piscine Tutor</div>
+                        <div class="company">42 Bangkok</div>
+                        <div class="date">September - October 2023</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Tutored junior high school students in HTML, CSS, and JavaScript</li>
+                                <li>Collaborated on practical, real-world web development projects</li>
+                                <li>Enhanced students' social engagement and teamwork skills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Key Project Achievements</div>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <div class="project-name">cub3d</div>
+                    <div class="project-duration">280 Hours | Completed April 2025</div>
+                    <div class="project-description">Built a 3D ray-casting game engine inspired by classic FPS games, demonstrating advanced graphics programming and algorithm optimization. Passed with bonus.</div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-name">minishell</div>
+                    <div class="project-duration">210 Hours | Completed January 2025</div>
+                    <div class="project-description">Developed a complete Unix shell implementation with process management, pipe handling, and built-in commands. Advanced system programming project.</div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-name">Philosophers</div>
+                    <div class="project-duration">70 Hours | Completed February 2025</div>
+                    <div class="project-description">Implemented concurrent programming solution addressing the dining philosophers problem with multithreading and synchronization.</div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-name">C++ Modules (00-04)</div>
+                    <div class="project-duration">70 Hours | April-May 2025</div>
+                    <div class="project-description">Mastered object-oriented programming concepts including inheritance, polymorphism, templates, and orthodox canonical classes in C++.</div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-name">OCR Data Processing System</div>
+                    <div class="project-duration">Professional Project | 2023</div>
+                    <div class="project-description">Created production-ready system for automated text extraction and database integration using Python, JavaScript, and MongoDB at Wetrust GPS Company.</div>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-name">Additional Projects</div>
+                    <div class="project-duration">Various Durations</div>
+                    <div class="project-description">fract-ol (fractals graphics), push_swap (sorting algorithms), pipex (Unix pipes), NetPractice (networking), and multiple system programming projects.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Professional Competencies</div>
+            <div class="two-column">
+                <div>
+                    <strong>Technical Leadership:</strong> Proven ability to mentor and guide fellow programmers through complex technical concepts and project implementations.
+                </div>
+                <div>
+                    <strong>Problem-Solving:</strong> Demonstrated expertise in algorithm design, data structure optimization, and systematic approach to debugging complex systems.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
